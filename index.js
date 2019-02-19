@@ -104,6 +104,7 @@
         this.setStyle(opacityRect, {
             position: "absolute",
             background: "rgba(0, 0, 0, 0)",
+            boxShadow: "0px 0px 1px 999999px rgba(0, 0, 0, 0.7)",
             top: '0px',
             left: '0px',
             width: '0px',
@@ -128,4 +129,4 @@
     window.Guide = function(opt) {
         return new Guide(opt);
     }
-})(window, doc);
+})(window, document);
