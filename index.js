@@ -48,6 +48,7 @@
             left: "0px",
             width: `${bodyDom.clientWidth}px`,
             height: `${bodyDom.clientHeight}px`,
+            zIndex: '999',
             display: 'none'
         });
         bodyDom.appendChild(maskDom);
