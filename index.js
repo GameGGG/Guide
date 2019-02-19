@@ -103,8 +103,7 @@
         var opacityRect = doc.createElement('div');
         this.setStyle(opacityRect, {
             position: "absolute",
-            backgroundImage: "./transparent.png",
-            boxShadow: "0px 0px 3px 99999px rgba(0,0,0,0.7)",
+            background: "rgba(0, 0, 0, 0)",
             top: '0px',
             left: '0px',
             width: '0px',
